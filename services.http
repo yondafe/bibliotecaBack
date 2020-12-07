@@ -1,0 +1,328 @@
+
+
+GET http://localhost:8000/api/clientes
+
+####
+
+GET http://localhost:8000/api/clientes/5
+
+####
+
+POST http://localhost:8000/api/clientes
+Content-Type: application/json
+
+{
+    "nome": "Gustavo Rodrigues Oliveira",
+    "email": "gustavor.oliveiraa@gmail.com",
+    "cpf": "70877799156",
+    "celular": "61999270934",
+    "cep": "72870219",
+    "logradouro": "R 19 Q 49 L 34",
+    "bairro": "Jardim Oriente",
+    "cidade": "Valparaiso de Goias",
+    "uf": "GO"
+}
+
+####
+
+DELETE http://localhost:8000/api/clientes/5
+
+
+####
+
+PUT http://localhost:8000/api/clientes/1
+Content-Type: application/json
+
+{
+    "nome": "Ciclano Ferreira de Oliveira",
+    "email": "ciclanof.o@gmail.com",
+    "cpf": "99834820343",
+    "celular": "61999270934",
+    "cep": "72870219",
+    "logradouro": "R 19 Q 49 L 34",
+    "bairro": "Jardim Oriente",
+    "cidade": "Valparaiso de Goias",
+    "uf": "GO"
+}
+
+
+##################################################################
+
+GET http://localhost:8000/api/livros
+
+####
+
+GET http://localhost:8000/api/livros/2
+
+####
+
+POST http://localhost:8000/api/livros
+Content-Type: application/json
+
+{
+    "autores": "Sylvain Neuvel",
+    "titulo": "Gigantes Adormecidos",
+    "genero": "Ficcção Científica",
+    "categoria": "Livros",
+    "local": "Rio de Janeiro",
+    "editora": "Suma",
+    "ano": "2016",
+    "idioma": "Portugues",
+    "totPag": "307",
+    "sinopse": "Rose passeia de bicicleta pelo bosque perto de sua casa quando de repente..."
+}
+
+####
+
+DELETE http://localhost:8000/api/livros/1
+
+
+####
+
+PUT http://localhost:8000/api/livros/1
+Content-Type: application/json
+
+{
+    "autores": "Gustavo e Wallisson",
+    "titulo": "Web, 21 Oct 2015 18:27:50 GMT",
+    "genero": "fantasia",
+    "categoria": "escolar",
+    "local": "Brazil",
+    "editora": "Verde",
+    "ano": "2020",
+    "idioma": "Portugues",
+    "totPag": "55",
+    "sinopse": ""
+}
+
+##################################################################
+
+GET http://localhost:8000/api/revistas
+
+####
+
+GET http://localhost:8000/api/revistas/2
+
+####
+
+POST http://localhost:8000/api/revistas
+Content-Type: application/json
+
+{ 
+     "revista": "super interessante",
+     "titulo": "O olho de Deus",
+     "edicao": "novembro, 2020",
+     "totPag": "22",
+     "editora": "uni"
+}
+
+####
+
+DELETE http://localhost:8000/api/revistas/1
+
+
+####
+
+PUT http://localhost:8000/api/revistas/1
+1
+Content-Type: application/json
+
+{
+     "revista": "RR",
+     "titulo": "O olho de Deus 2.0",
+     "edicao": "novembro, 2020",
+     "totPag": "22",
+     "editora": "unidesc paper"  
+}
+
+##################################################################
+
+GET http://localhost:8000/api/notebooks
+
+####
+
+GET http://localhost:8000/api/notebooks/2
+
+####
+
+POST http://localhost:8000/api/notebooks
+Content-Type: application/json
+
+{ 
+    "nome": "Dell Inspiron",
+    "marca":"DELL",
+    "modelo": "14 7479 p",
+    "processador":"intel i7 8550U",
+    "hd":"1T",
+    "so":"Windows 10 home",
+    "ram":"8GB"
+}
+
+####
+
+DELETE http://localhost:8000/api/notebooks/1
+
+
+####
+
+PUT http://localhost:8000/api/notebooks/1
+Content-Type: application/json
+
+{
+    "nome": "Dell Inspiron 2",
+    "marca":"DELL",
+    "modelo": "14 7479 p",
+    "processador":"intel i7 8550U",
+    "hd":"1T",
+    "so":"Windows 10 home",
+    "ram":"8GB"
+}
+
+##################################################################
+
+GET http://localhost:8000/api/jornais
+
+####
+
+GET http://localhost:8000/api/jornais/2
+
+####
+
+POST http://localhost:8000/api/jornais
+Content-Type: application/json
+
+{ 
+    "editora":"fdsfsdf",
+    "data":"setembro, 2020",
+    "edicao":"233",
+    "cidade":"Sao Paulo",
+    "site":"www.harvard.com.us"
+}
+
+####
+
+DELETE http://localhost:8000/api/jornais/2
+
+
+####
+
+PUT http://localhost:8000/api/jornais/3
+Content-Type: application/json
+
+{
+    "editora":"Show",
+    "data":"Show",
+    "edicao":"12",
+    "cidade":"Show",
+    "site":"Show"
+}
+
+##################################################################
+
+GET http://localhost:8000/api/revistas
+
+####
+
+GET http://localhost:8000/api/revistas/2
+
+####
+
+POST http://localhost:8000/api/revistas
+Content-Type: application/json
+
+{ 
+     "revista": "super interessante",
+     "titulo": "O olho de Deus",
+     "edicao": "novembro, 2020",
+     "totPag": "22",
+     "editora": "uni"
+}
+
+####
+
+DELETE http://localhost:8000/api/revistas/1
+
+
+####
+
+PUT http://localhost:8000/api/revistas/1
+1
+Content-Type: application/json
+
+{
+     "revista": "RR",
+     "titulo": "O olho de Deus 2.0",
+     "edicao": "novembro, 2020",
+     "totPag": "22",
+     "editora": "unidesc paper"  
+}
+
+##################################################################
+
+GET http://localhost:8000/api/categorias
+
+####
+
+GET http://localhost:8000/api/categorias/2
+
+####
+
+POST http://localhost:8000/api/categorias
+Content-Type: application/json
+
+{ 
+    "categoria":"Show"
+}
+
+####
+
+DELETE http://localhost:8000/api/categorias/1
+
+
+####
+
+PUT http://localhost:8000/api/categorias/2
+Content-Type: application/json
+
+{
+     "categoria":"Privado"
+}
+
+##################################################################
+
+GET http://localhost:8000/api/musicas
+
+####
+
+GET http://localhost:8000/api/musicas/2
+
+####
+
+POST http://localhost:8000/api/musicas
+Content-Type: application/json
+
+{ 
+    "nomeAlbum": "Dell Inspiron",
+    "cantor":"DELL",
+    "anoAlbum": "14",
+    "qFaixa":"1",
+    "material":"1T"
+}
+
+####
+
+DELETE http://localhost:8000/api/musicas/1
+
+
+####
+
+PUT http://localhost:8000/api/musicas/2
+Content-Type: application/json
+
+{
+    "nomeAlbum": "Dell Inspiron",
+    "cantor":"DELL",
+    "anoAlbum": "143",
+    "qFaixa":"22",
+    "material":"1T"
+}
